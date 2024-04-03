@@ -8,7 +8,7 @@ const morgan = require('morgan');
 
 app.use(cors(
 	{
-		origin:["https://school-task-managment.vercel.app/"],
+		origin:["https://school-task-managment.vercel.app"],
 		methods: ["POST","GET"],
 		credentials: true
 			
